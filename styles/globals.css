@@ -20,7 +20,14 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    background: #ddddde;
   }
+  .card {
+    background: #f6f6f6;
+  }
+}
+
+.card-wilayah {
+  background: rgb(0, 200, 255);
+  color: white;
 }
