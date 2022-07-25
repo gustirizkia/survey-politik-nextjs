@@ -37,9 +37,9 @@ export default function Absen() {
           <div>
             <div className="row">
               <div className="col-4">
-                <div class="d-grid gap-2 mt-4">
+                <div className="d-grid gap-2 mt-4">
                   <button
-                    class="btn btn-outline-success"
+                    className="btn btn-outline-success"
                     type="button"
                     onClick={() => setIsOpenCam(true)}
                   >
@@ -50,8 +50,8 @@ export default function Absen() {
               <div className="col-8">
                 <Link href="/survey">
                   <a>
-                    <div class="d-grid gap-2 mt-4">
-                      <button class="btn btn-success" type="button">
+                    <div className="d-grid gap-2 mt-4">
+                      <button className="btn btn-success" type="button">
                         Selanjutnya
                       </button>
                     </div>

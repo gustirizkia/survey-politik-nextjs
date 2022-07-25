@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Survey() {
   return (
     <>
@@ -11,31 +9,31 @@ export default function Survey() {
         Siapa Gubernur Jakarta Pada Tahun 2019 ?
       </div>
 
-      <div class="form-check mb-4">
+      <div className="form-check mb-4">
         <input
-          class="form-check-input"
+          className="form-check-input"
           type="radio"
           name="flexRadioDefault"
           id="flexRadioDefault1"
         />
-        <label class="form-check-label" for="flexRadioDefault1">
+        <label className="form-check-label" htmlFor="flexRadioDefault1">
           Anis Baswedan
         </label>
       </div>
-      <div class="form-check">
+      <div className="form-check">
         <input
-          class="form-check-input"
+          className="form-check-input"
           type="radio"
           name="flexRadioDefault"
           id="02"
         />
-        <label class="form-check-label" for="02">
+        <label className="form-check-label" htmlFor="02">
           Sandiaga Uno
         </label>
       </div>
 
-      <div class="d-grid gap-2 mt-4">
-        <button class="btn btn-success" type="button">
+      <div className="d-grid gap-2 mt-4">
+        <button className="btn btn-success" type="button">
           Selanjutnya
         </button>
       </div>
