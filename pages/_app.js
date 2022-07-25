@@ -1,6 +1,6 @@
 import Head from "next/head";
 import "../styles/globals.css";
-import "../styles/Survey.css";
+import "../styles/survey.css";
 import "../public/bootstrap-5/css/bootstrap.min.css";
 
 function MyApp({ Component, pageProps }) {
