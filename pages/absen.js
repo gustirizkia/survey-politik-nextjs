@@ -29,11 +29,10 @@ export default function Absen() {
             onTakePhoto={(dataUri) => {
               handleTakePhoto(dataUri);
             }}
-            isImageMirror={true}
+            isImageMirror={false}
             onCameraStart={(stream) => {
               handleCameraStart(stream);
             }}
-            isFullscreen={true}
           />
         </>
       ) : (
