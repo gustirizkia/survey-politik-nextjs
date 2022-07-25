@@ -6,7 +6,7 @@ export default function Survey() {
       </p>
 
       <div className="answer mb-4">
-        Siapa Gubernur Jakarta Pada Tahun 2019 ?
+        Siapakah Gubernur Jakarta Pada Tahun 2019 ?
       </div>
 
       <div className="form-check mb-4">
