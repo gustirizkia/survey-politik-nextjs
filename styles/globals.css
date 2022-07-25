@@ -31,3 +31,6 @@ a {
   background: rgb(0, 200, 255);
   color: white;
 }
+a {
+  text-decoration: none !important;
+}

@@ -7,15 +7,21 @@ import Link from "next/link";
 export default function Absen() {
   const [dataImage, setDataImage] = useState("");
   const [isOpenCam, setIsOpenCam] = useState(true);
-  function handleTakePhoto(dataUri) {
+
+  const handleTakePhoto = (dataUri) => {
     // Do stuff with the photo...
     console.log("takePhoto");
     setDataImage(dataUri);
     setIsOpenCam(false);
-  }
+  };
+
+  const handleCameraStart = (stream) => {
+    console.log("handleCameraStart");
+    console.log(stream);
+  };
   return (
     <>
-      <h5>Absen Relawan</h5>
+      <h5>Absen Relawan Take Your Foto</h5>
 
       {isOpenCam ? (
         <>
@@ -23,6 +29,11 @@ export default function Absen() {
             onTakePhoto={(dataUri) => {
               handleTakePhoto(dataUri);
             }}
+            isImageMirror={true}
+            onCameraStart={(stream) => {
+              handleCameraStart(stream);
+            }}
+            isFullscreen={true}
           />
         </>
       ) : (
